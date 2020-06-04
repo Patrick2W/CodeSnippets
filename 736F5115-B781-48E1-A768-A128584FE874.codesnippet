@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyscroll</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIScrollView *)&lt;#scrollView#&gt; {
+    if (!_&lt;#scrollView#&gt;) {
+        _&lt;#scrollView#&gt; = [[UIScrollView alloc] init];
+        _&lt;#scrollView#&gt;.showsVerticalScrollIndicator = &lt;#BOOL#&gt;;
+        _&lt;#scrollView#&gt;.showsHorizontalScrollIndicator = &lt;#BOOL#&gt;;
+        _&lt;#scrollView#&gt;.bounds = &lt;#BOOL#&gt;;
+        _&lt;#scrollView#&gt;.pagingEnabled = &lt;#BOOL#&gt;;
+        _&lt;#scrollView#&gt;.scrollEnabled = &lt;#BOOL#&gt;;
+        _&lt;#scrollView#&gt;.delegate = self;
+    }
+    return _&lt;#scrollView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>736F5115-B781-48E1-A768-A128584FE874</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy scroll</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

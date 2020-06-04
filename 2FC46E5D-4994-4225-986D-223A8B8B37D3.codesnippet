@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyflow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UICollectionViewFlowLayout *)&lt;#flowLayout#&gt; {
+    if (!_&lt;#flowLayout#&gt;) {
+        _&lt;#flowLayout#&gt; = [[UICollectionViewFlowLayout alloc] init];
+        _&lt;#flowLayout#&gt;.minimumLineSpacing = &lt;#CGFloat#&gt;;
+        _&lt;#flowLayout#&gt;.minimumInteritemSpacing = &lt;#CGFloat#&gt;;
+        _&lt;#flowLayout#&gt;.itemSize = CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#flowLayout#&gt;.estimatedItemSize = CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#flowLayout#&gt;.scrollDirection = &lt;#UICollectionViewScrollDirectionVertical#&gt;;
+        _&lt;#flowLayout#&gt;.headerReferenceSize = CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#flowLayout#&gt;.footerReferenceSize = CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    }
+    return _&lt;#flowLayout#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2FC46E5D-4994-4225-986D-223A8B8B37D3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy flowlayout</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

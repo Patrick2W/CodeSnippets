@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazybutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#button#&gt; {
+    if (!_&lt;#button#&gt;) {
+        _&lt;#button#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+        _&lt;#button#&gt;.titleLabel.font = &lt;#UIFont#&gt;;
+        [_&lt;#button#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+        [_&lt;#button#&gt; setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
+        [_&lt;#button#&gt; setImage:&lt;#(nullable UIImage *)#&gt; forState:UIControlStateNormal];
+        [_&lt;#button#&gt; addTarget:self action:&lt;#(nonnull SEL)#&gt; forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _&lt;#button#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7F4E4AB5-3393-4CE3-9F3D-0C8FC898892B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>懒加载按钮</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

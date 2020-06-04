@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazytable</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITableView *)&lt;#tableView#&gt; {
+    if (!_&lt;#tableView#&gt;) {
+        _&lt;#tableView#&gt; = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        _&lt;#tableView#&gt;.separatorStyle = &lt;#UITableViewCellSeparatorStyleNone#&gt;;
+        _&lt;#tableView#&gt;.separatorColor = &lt;#UIColor#&gt;;
+        _&lt;#tableView#&gt;.separatorInset = &lt;#UIEdgeInsetsMake#&gt;;
+        _&lt;#tableView#&gt;.rowHeight = &lt;#CGFloat#&gt;;
+        _&lt;#tableView#&gt;.estimatedRowHeight = &lt;#CGFloat#&gt;;
+        _&lt;#tableView#&gt;.sectionHeaderHeight = &lt;#CGFloat#&gt;;
+        _&lt;#tableView#&gt;.estimatedSectionHeaderHeight = &lt;#CGFloat#&gt;;
+        _&lt;#tableView#&gt;.sectionFooterHeight = &lt;#CGFloat#&gt;;
+        _&lt;#tableView#&gt;.estimatedSectionFooterHeight = &lt;#CGFloat#&gt;;
+        
+        _&lt;#tableView#&gt;.showsVerticalScrollIndicator = &lt;#BOOL#&gt;;
+        
+        _&lt;#tableView#&gt;.delegate = self;
+        _&lt;#tableView#&gt;.dataSource = self;
+    }
+    return _&lt;#tableView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3C550AF3-1966-42C1-BF74-A69DF73F4BC4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>懒加载列表</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy table</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

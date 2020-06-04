@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazycollection</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UICollectionView *)&lt;#collectionView#&gt; {
+    if (!_&lt;#collectionView#&gt;) {
+        _&lt;#collectionView#&gt; = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:&lt;#flowLayout#&gt;];
+        _&lt;#collectionView#&gt;.delegate = self;
+        _&lt;#collectionView#&gt;.dataSource = self;
+    }
+    return _&lt;#collectionView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>253D68BE-58A5-4C42-8683-F356FE3E7ACA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy collection</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
